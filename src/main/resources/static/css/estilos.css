@@ -1,0 +1,70 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 22, 2024, 7:51:18 PM
+    Author     : eliec
+*/
+
+footer p{
+    background-color: blue;
+    color:white;
+}
+
+h1,h2{
+    text-align: center;
+}
+h1{
+    background-color: black;
+    color: white;
+    font-size: 32px;
+}
+
+h2{
+    background-color: green;
+    color: yellow;
+    font-size: 24px;
+}
+
+.aviso{
+    background-color: green;
+    color:white;
+}
+
+#btnAlgo{
+    
+}
+
+table{
+    width: 80%;
+}
+
+thead tr{
+    background-color: black;
+    color: white;
+}
+
+td{
+    text-align: center;
+}
+
+tbody tr:nth-child(odd){
+    background-color: white;
+    color: black;
+}
+tbody tr:nth-child(even){
+    background-color: gray;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    background-color: green;
+    color:white;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
