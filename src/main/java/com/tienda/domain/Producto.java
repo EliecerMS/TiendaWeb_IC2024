@@ -29,7 +29,17 @@ public class Producto implements Serializable {
     private String ruta_imagen;
     private boolean activo;
 
+    @ManyToOne
+    @JoinColumn(name="id_categoria")
+    Categoria categoria;
+
+
     public Producto() {
+    }
+
+    public Producto(String descripcion, boolean activo) {
+        this.descripcion = descripcion;
+        this.activo = activo;
     }
 
 }
